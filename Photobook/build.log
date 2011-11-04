@@ -1,0 +1,20 @@
+Logfile initialized
+[INFO] logfile = C:\Users\Nico\Desktop\Acid Proyects\Photobook\build.log
+[DEBUG] C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\builder.py simulator Photobook C:\Program Files (x86)\Android\android-sdk C:\Users\Nico\Desktop\Acid Proyects\Photobook com.photobook 4 HVGA
+[INFO] Building Photobook for Android ... one moment
+[INFO] Titanium SDK version: 1.7.5 (11/02/11 17:00 ab20af7)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 2 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.015000 seconds on emulator to get ready
+[DEBUG] com.photobook installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying project resources..
+[TRACE] COPYING MODIFIED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\login.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\login.js
+[INFO] Tiapp.xml unchanged, skipping class generation
+[DEBUG] Processing Android resource drawables
+[INFO] Waiting for SDCard to become available..
+[INFO] Re-launching application ... Photobook
+[INFO] Launching application ... Photobook
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.photobook/.PhotobookActivity }
+
