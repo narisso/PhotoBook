@@ -5,12 +5,13 @@ Titanium.UI.setBackgroundColor('#000');
 // create base UI tab and root window
 //
 var win = Titanium.UI.createWindow({  
-    title:'Login to PhotoBook !',
+    title:'PhotoBook !',
     backgroundColor:'#fff',
-    url:'login.js'
+    url:'windows/login.js',
+    exitOnClose: true
 });
 
 
 
 // open window
-win.open();
+win.open({animated:true, modal:true});

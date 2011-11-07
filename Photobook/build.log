@@ -5,12 +5,19 @@ Logfile initialized
 [INFO] Titanium SDK version: 1.7.5 (11/02/11 17:00 ab20af7)
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 2 devices/emulators
-[DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.015000 seconds on emulator to get ready
+[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
+[DEBUG] Device connected... (waited 15 seconds)
+[DEBUG] waited 15.102000 seconds on emulator to get ready
+[INFO] Waiting for the Android Emulator to become available
 [DEBUG] com.photobook installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\login.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\login.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\app.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\app.js
+[TRACE] COPYING CREATED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\windows\albums.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\windows\albums.js
+[TRACE] COPYING CREATED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\windows\login.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\windows\login.js
+[TRACE] COPYING CREATED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\windows\photos.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\windows\photos.js
 [INFO] Tiapp.xml unchanged, skipping class generation
 [DEBUG] Processing Android resource drawables
 [INFO] Waiting for SDCard to become available..
