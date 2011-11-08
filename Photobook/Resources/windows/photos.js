@@ -1,11 +1,18 @@
 
 var win = Ti.UI.currentWindow;
 
+var activityIndicator = Ti.UI.createActivityIndicator({
+        	message:' Loading...',
+       });
+win.add(activityIndicator);
+
 var tableview = Ti.UI.createTableView({
             backgroundColor : 'transparent',
             rowBackgroundColor : 'white'
        });
-      
+win.add(tableview);
+
+activityIndicator.show();    
 Titanium.Facebook.requestWithGraphPath(win.AlbumID+'/photos', {fields : 'id'}, 'GET', 
 	function(e){
         	if(e.success) {
@@ -41,11 +48,12 @@ Titanium.Facebook.requestWithGraphPath(win.AlbumID+'/photos', {fields : 'id'}, '
             {
                 Ti.API.debug(e.result);
             }
+            activityIndicator.hide();
         	
         	
         }
 );
 
-win.add(tableview);
+
 
 

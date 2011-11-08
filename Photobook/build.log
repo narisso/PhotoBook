@@ -1,27 +1,76 @@
 Logfile initialized
 [INFO] logfile = C:\Users\Nico\Desktop\Acid Proyects\Photobook\build.log
-[DEBUG] C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\builder.py simulator Photobook C:\Program Files (x86)\Android\android-sdk C:\Users\Nico\Desktop\Acid Proyects\Photobook com.photobook 4 HVGA
-[INFO] Building Photobook for Android ... one moment
+[DEBUG] C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\builder.py install Photobook C:\Program Files (x86)\Android\android-sdk C:\Users\Nico\Desktop\Acid Proyects\Photobook com.photobook 4
 [INFO] Titanium SDK version: 1.7.5 (11/02/11 17:00 ab20af7)
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[TRACE] adb devices returned 2 devices/emulators
-[DEBUG] Device connected... (waited 15 seconds)
-[DEBUG] waited 15.102000 seconds on emulator to get ready
-[INFO] Waiting for the Android Emulator to become available
-[DEBUG] com.photobook installed? True
-[INFO] Fastdev server running, deploying in Fastdev mode
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.015000 seconds on emulator to get ready
+[DEBUG] com.photobook installed? False
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\app.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\app.js
-[TRACE] COPYING CREATED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\windows\albums.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\windows\albums.js
-[TRACE] COPYING CREATED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\windows\login.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\windows\login.js
-[TRACE] COPYING CREATED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\windows\photos.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\windows\photos.js
-[INFO] Tiapp.xml unchanged, skipping class generation
+[TRACE] COPYING MODIFIED FILE: C:\Users\Nico\Desktop\Acid Proyects\Photobook\Resources\windows\login.js => C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\windows\login.js
+[TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
-[INFO] Waiting for SDCard to become available..
-[INFO] Re-launching application ... Photobook
-[INFO] Launching application ... Photobook
-[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.photobook/.PhotobookActivity }
-
+[DEBUG] copying app icon: C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found splash screen at C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\assets\Resources\default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\gen\com\photobook\PhotobookActivity.java to javac build list
+[DEBUG] adding C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\gen\com\photobook\PhotobookAppInfo.java to javac build list
+[DEBUG] adding C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\gen\com\photobook\PhotobookApplication.java to javac build list
+[DEBUG] adding C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\gen\com\photobook\R.java to javac build list
+[DEBUG] Building Java Sources: "C:\\Users\\Nico\\Desktop\\Acid Proyects\\Photobook\\build\\android\\gen\\com\\photobook\\PhotobookActivity.java" "C:\\Users\\Nico\\Desktop\\Acid Proyects\\Photobook\\build\\android\\gen\\com\\photobook\\PhotobookAppInfo.java" "C:\\Users\\Nico\\Desktop\\Acid Proyects\\Photobook\\build\\android\\gen\\com\\photobook\\PhotobookApplication.java" "C:\\Users\\Nico\\Desktop\\Acid Proyects\\Photobook\\build\\android\\gen\\com\\photobook\\R.java"
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: C:\Users\Nico\Desktop\Acid Proyects\Photobook\build\android\bin\app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/windows/albums.js
+[DEBUG] from resource zip => assets/Resources/windows/login.js
+[DEBUG] from resource zip => assets/Resources/windows/photos.js
+[DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
+[DEBUG] from resource zip => assets/Resources/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/tiapp.xml
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/facebook_icon.png
+[DEBUG] from resource zip => res/drawable/facebook_login.png
+[DEBUG] from resource zip => res/drawable/facebook_login_down.png
+[DEBUG] from resource zip => res/drawable/facebook_login_wide.png
+[DEBUG] from resource zip => res/drawable/facebook_login_wide_down.png
+[DEBUG] from resource zip => res/drawable/facebook_logout.png
+[DEBUG] from resource zip => res/drawable/facebook_logout_down.png
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-hdpi/facebook_icon.png
+[DEBUG] from resource zip => res/drawable-ldpi/facebook_icon.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\smalljs.jar => org/mozilla/javascript/resources/Messages.properties
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR C:\Users\Nico\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.015000 seconds on emulator to get ready
+[INFO] Installing application on emulator
+[INFO] Application installed. Launch from drawer on Home Screen

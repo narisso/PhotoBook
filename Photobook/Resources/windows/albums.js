@@ -1,13 +1,19 @@
 
 var win = Ti.UI.currentWindow;
 
+var activityIndicator = Ti.UI.createActivityIndicator({
+        	message:' Loading...',
+       });
+win.add(activityIndicator);
+     
 var tableview = Ti.UI.createTableView({
             backgroundColor : 'transparent',
             rowBackgroundColor : 'white'
        });
-        
-function getAlbumCovers() {
+win.add(tableview);
 
+function getAlbumCovers() {
+		activityIndicator.show();
         Titanium.Facebook.requestWithGraphPath('me/albums', {
             fields : 'id,name,cover_photo,count,created_time'
         }, 'GET', function(e) {
@@ -30,7 +36,7 @@ function getAlbumCovers() {
                             top : 0,
                             left : 0,
                             width : 100,
-                            height : 100
+ 							height : 100
                         });
                         var title = Titanium.UI.createLabel({
                             text : String.format("%s (%d)", data[x].name, data[x].count),
@@ -70,11 +76,11 @@ function getAlbumCovers() {
             else {
                 Ti.API.debug(e.result);
             }
+            activityIndicator.hide();
 
         });
 }
 
 getAlbumCovers();
-win.add(tableview);
 
 
